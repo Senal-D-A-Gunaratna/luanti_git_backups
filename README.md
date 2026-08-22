@@ -4,7 +4,7 @@
 
 ## Introduction
 
-A high-performance, automated snapshot system using *git* version control for Luanti worlds. This mod leverages git to provide lightweight, incremental backups of your world state with minimal impact on server performance.
+An automated snapshot system using *git* version control for Luanti worlds. This mod leverages git to provide lightweight, incremental backups of your world state with minimal impact on server performance.
 
 ## Features
 
@@ -65,6 +65,8 @@ All commands require `server` privileges.
 | `/git log`           | `-l`           | Show the last 15 snapshots with hash, timestamp, and age.               |
 | `/git revert <hash>` | `-r <hash>`    | Revert the world to the specified snapshot hash and restart the server. |
 | `/git gui`           | `-g`           | Open the in-game snapshot GUI.                                          |
+| `/git -rm`           | `-rm`                     | Reinitialize the git repository                                        |
+
 
 ### In-Game GUI
 
